@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+.container {
+    margin: 20px auto;
+    width: 80%;
+
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  #mainTaskForm {
+    margin-bottom: 10px;
+  }
+
+  #searchInput
+  {
+    margin-bottom: 20px;
+    text-align:right;
+    width:300px;
+  }
+  
+  #mainTaskForm input[type="text"] {
+    padding: 5px;
+    text-align: left;
+
+  }
+
+  #searchbar
+  {
+    text-align:right;
+  }
+  
+  #taskTable {
+    width: 100%;
+    border:1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #taskTable th
+  {
+    background-color: #e7e7e7;
+  }
+  
+  #taskTable th, #taskTable td {
+    border: 1px solid #141414;
+    padding: 8px;
+  }
+  
+  .deleted {
+    text-decoration: line-through;
+  }
+  #subTaskForm {
+    margin-bottom: 40px;
+  }  
+
+  input
+  {
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button
+  {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #4CAF50;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #6d756d;
+  }
+
+
+  select
+  {
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Manager - Sub Task</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Task Manager - Sub Task</h1>
+    <div id="subTaskForm">
+      <input type="text" id="subTaskName" placeholder="Enter subtask name">
+      <label for="startDate">Start Date:</label>
+      <input type="date" id="startDate">
+      <label for="endDate">End Date:</label>
+      <input type="date" id="endDate">
+      <label for="status">Status:</label>
+      <select id="status">
+        <option value="In Progress">In Progress</option>
+        <option value="Completed">Completed</option>
+        <option value="Due Passed" disabled>Due Passed</option>
+        <option value="Cancelled">Cancelled</option>
+      </select>
+      <button onclick="addSubtask()">Add Subtask</button>
+    </div>
+    <a href="first.html">Back to Main Task</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

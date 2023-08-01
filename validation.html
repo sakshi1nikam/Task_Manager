@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "validation.js" ></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form id="addSubtaskForm" style="display: none;">
+          <input type="text" id="subtaskName" placeholder="Enter subtask name">
+          <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" onchange="updateOptions()">
+        <br><br>
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" onchange="updateOptions()">
+          <label for="status">Status:</label>
+        <select id="status" onchange="updateOptions()">
+          <option value="not started">Not started</option>
+            <option value="completed">Completed</option>
+            <option value="inProgress">In Progress</option>
+            <option value="duePassed">Due Passed</option>
+            <option value="cancelled">Cancelled</option>
+        </select>
+          <button type="submit">Add Subtask</button>
+          <button type="button" onclick="cancelAddSubtask()">Cancel</button>
+        </form>
+      </div>
+</body>
+</html>
